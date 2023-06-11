@@ -9,6 +9,8 @@ This is a simple nodeJs application to merge two images of beautiful cats. It wi
 
 To view in dev mode
 
+Node version used `v16.14.0`
+
 ```bash
   npm install | yarn install
 ```
