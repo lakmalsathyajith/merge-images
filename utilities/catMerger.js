@@ -27,7 +27,7 @@ const mergeCatSays = (cat1Binary, cat2Binary, width) => {
     .then((img) => {
       img.getBuffer("image/jpeg", (err, buffer) => {
         if (err) {
-          console.log(err);
+          console.error(err);
           // throw custom image error
           throw new ImageMergeError();
         }
@@ -47,7 +47,7 @@ const mergeCatSays = (cat1Binary, cat2Binary, width) => {
       });
     })
     .catch((error) => {
-      console.log(error);
+      console.error(error);
       // throw custom image error
       throw new ImageMergeError();
     });
