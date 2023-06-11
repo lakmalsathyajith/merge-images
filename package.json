@@ -1,0 +1,23 @@
+{
+  "name": "cat-ass",
+  "version": "1.0.0",
+  "description": "This is a cat merger",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\"",
+    "merger": "node index.js"
+  },
+  "dependencies": {
+    "merge-img": "^2.1.3",
+    "minimist": "^1.2.8",
+    "request-promise": "^4.2.6",
+    "@types/minimist": "^1.2.2"
+  },
+  "author": "Sathyajith",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "prettier": "^2.8.8"
+  }
+}
